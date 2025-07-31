@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowTogether - Hilfstransporte weltweit</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">[Logo-Platzhalter]</div>
+        <nav>
+            <a href="#globale-hilfe">Globale Hilfe</a>
+            <a href="#veranstalter">Veranstalter suchen Helfer</a>
+            <a href="#hilfe-anbieten">Hilfe anbieten</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Wo Menschen sich helfen, werden Grenzen zu Brücken.</h1>
+        <p class="slogan">
+            Gemeinsam bewegen wir das, was zählt.<br />
+            Hilfstransporte weltweit – sicher, freiwillig, direkt.
+        </p>
+    </section>
+
+    <main>
+        <section id="globale-hilfe">
+            <h2>Globale Hilfe</h2>
+            <p>Finde Hilfsprojekte weltweit, an denen du teilnehmen kannst.</p>
+            <button onclick="alert('Demo: Globale Hilfe anzeigen')">Projekte anzeigen</button>
+        </section>
+
+        <section id="veranstalter">
+            <h2>Veranstalter suchen Helfer</h2>
+            <p>Erstelle Projekte und finde engagierte Helfer für deine Mission.</p>
+            <button onclick="alert('Demo: Veranstalter-Formular öffnen')">Projekt erstellen</button>
+        </section>
+
+        <section id="hilfe-anbieten">
+            <h2>Hilfe anbieten</h2>
+            <p>Biete deine Unterstützung an und werde Teil einer globalen Gemeinschaft.</p>
+            <form onsubmit="alert('Demo: Helfer registriert'); return false;">
+                <input type="text" placeholder="Dein Name" required />
+                <input type="email" placeholder="E-Mail" required />
+                <textarea placeholder="Wie kannst du helfen?" required></textarea>
+                <button type="submit">Hilfe anbieten</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 FlowTogether – Demo-Version</p>
+    </footer>
+</body>
+</html>
